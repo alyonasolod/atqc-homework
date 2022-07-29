@@ -1,6 +1,6 @@
 package javacore;
 
-public class DisplayGreaterNumber  {
+public class Task4_DisplayGreaterNumber {
     public static void main(String args[]){
         int firstNumber,secondNumber;
         System.out.println("Enter first integer number");

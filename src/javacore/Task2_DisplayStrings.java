@@ -2,7 +2,7 @@ package javacore;
 
 import java.util.Scanner;
 
-class Task1_DisplayStrings {
+class Task2_DisplayStrings {
 
      public static void main(String args[]){
 

@@ -1,6 +1,7 @@
 package javacore;
 
-public class DisplayArrayElements extends DisplayArray {
+public class Task10_DisplayArrayElements extends Task9_DisplayArray {
+    //Дан массив int[] arr = {1,5,33,12,88,9,192,123,567,88,44,32}. Вывести все что больше 10
     public static void main(String args[]) {
         int[] arr = {1, 5, 33, 12, 88, 9, 192, 123, 567, 88, 44, 32};
         System.out.println("Given array : ");

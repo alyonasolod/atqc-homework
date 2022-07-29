@@ -2,7 +2,7 @@ package javacore;
 
 import java.time.temporal.ValueRange;
 
-public class IsNumberInRange  {
+public class Task5_IsNumberInRange {
     //Написать и запустить программу которая принимает три аргумента в виде целых чисел. Если хотя бы один из них в диапазоне между 13 и 19 то выводит текст "Small" иначе "Do not know".
     public static void main(String args[]){
 

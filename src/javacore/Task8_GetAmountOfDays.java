@@ -1,6 +1,6 @@
 package javacore;
 
-public class GetAmountOfDays {
+public class Task8_GetAmountOfDays {
     //Написать и запустить программу которая принимает 1 аргумент в виде целого числа месяца. Дальше в заивисомсти от числа выводит сколько в этом месяце дней.
 
     public static void main(String args[]){

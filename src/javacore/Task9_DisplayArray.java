@@ -1,6 +1,6 @@
 package javacore;
 
-public class DisplayArray {
+public class Task9_DisplayArray {
     //Дан массив int[] arr = {1,5,33,12,88,9,192,123,567,88,44,32}. Вывести все все элементы массива через разный виды циклов.
    public static void displayWithForLoop (int[]arr){
 
