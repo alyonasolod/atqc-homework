@@ -1,5 +1,9 @@
 package week2.task4;
 
+/**
+ * Child that can not be inherited
+ * Implements specific IOS device fields
+ */
 public final class Iphone extends Phone  {
     private String udid;
 

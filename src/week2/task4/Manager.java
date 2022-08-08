@@ -1,9 +1,14 @@
 package week2.task4;
 
 import java.util.Collections;
-import java.util.EnumMap;
 import java.util.Scanner;
 
+/**
+ * Main Manager app class
+ * Implemented it as a simple menu that provides 7 different options to User
+ * By default user can add device to the device collection manually or just import 8 hardcoded  test devices (4 iOS , 4 - Android)
+ * Uses indexed ENUM class 'StateMachine' for menu navigation
+ */
 public class Manager {
     private static Collection deviceManager = new Collection();
     public static final String DEVICE_COUNTER = "CURRENTLY ADDED DEVICES NUMBER: ";

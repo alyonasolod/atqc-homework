@@ -1,10 +1,13 @@
 package week2.task4;
+/**
+ * Ancestor-class that implements basic Phone methods
+ */
 
 public abstract class Phone implements Vibrate, Printable, Comparable<Phone> {
     protected String name;
     protected String imei;
 
-    protected double displaySize; // или можем это поле сделать double
+    protected double displaySize;
     protected String resolution;
     protected String osVersion;
     protected String assignee;
@@ -45,7 +48,7 @@ public abstract class Phone implements Vibrate, Printable, Comparable<Phone> {
     public String getOs() {
         return this.osVersion;
     }
-
+    //мне кажется, что логичнее не пихать эту проверку в отдельный интерфейс
     public boolean isAvailable() {
         return this.assignee == null;
     }

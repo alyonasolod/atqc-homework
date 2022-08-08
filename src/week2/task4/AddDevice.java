@@ -2,6 +2,10 @@ package week2.task4;
 
 import java.util.Scanner;
 
+/**
+ * Class adds new devices to the collection manually (via Scanner, field-by-field)
+ * or just fills it with 8 default devices
+ */
 public class AddDevice {
 
     public static void addDeviceAuto(Collection devices) {

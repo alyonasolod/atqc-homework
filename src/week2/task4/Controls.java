@@ -3,6 +3,9 @@ package week2.task4;
 import java.time.temporal.ValueRange;
 import java.util.Scanner;
 
+/**
+ * Class is used within the Manager for menu navigation and commands selection
+ */
 /*
     MAIN_MENU(0),
     ADD_DEVICE_MANUALLY(1),

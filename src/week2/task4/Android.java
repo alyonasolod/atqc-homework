@@ -1,5 +1,9 @@
 package week2.task4;
 
+/**
+ * Child that implements specific Android fields
+ * Can be inherited according to the task description
+ */
 public class Android extends Phone {
     private boolean isRooted;
 
