@@ -1,7 +1,5 @@
 package week2.task4;
 
-import week2.task3.Cat;
-
 public abstract class Phone implements Vibrate, Printable, Comparable<Phone> {
     protected String name;
     protected String imei;
