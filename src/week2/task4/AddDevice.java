@@ -27,9 +27,10 @@ public class AddDevice {
         }
         return city;
     }
+//TODO добавить импорт девайсов из файла
 
     public static void addDeviceManually(Collection devices) {
-//String name, String imei, double displaySize, String resolution, String osVersion, String assignee, City city)
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter platform name (IOS/ANDROID): ");

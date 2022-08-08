@@ -65,7 +65,7 @@ public class Manager {
                     mainMenu = StateMachine.MAIN_MENU;
                     break;
                 default:
-                    AddDevice.addDeviceManually(deviceManager);
+                    AddDevice.addDeviceAuto(deviceManager);
                     printTotalDevices();
                     deviceManager.sort(Sorted.BY_SCREEN_SIZE);
                     for (Phone phone : deviceManager.getDeviceList()) {
