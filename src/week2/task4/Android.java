@@ -27,6 +27,6 @@ public class Android extends Phone {
     }
     @Override
     public String toString(){
-         return "ANDROID "+this.name+" OS "+this.osVersion+" DISPLAY "+this.displaySize+"\""+this.resolution;
+         return "ANDROID "+this.name+" OS "+this.osVersion+" DISPLAY "+this.displaySize+"\" "+this.resolution;
     }
 }
